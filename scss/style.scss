@@ -1,0 +1,1049 @@
+$white: #FFFFFF;
+
+%buttonstyle {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: $white;
+    padding: 12px 20px;
+    background: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%);
+    border-radius: 8px;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(../fonts/Outfit/);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+  *,
+  *::before,
+  *::after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/*Убираем линии обводки некоторых браузеров*/
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+/*задаем блочными теги Html5*/
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background-color: #09090A;
+}
+
+/*задаем наследование шрифтов*/
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    /* color: #292929; */
+}
+
+a:hover {
+    text-decoration: none;
+    background: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: -0.014em;
+    color: $white;
+}
+
+.h1-1 {
+    background: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.h1-2 {
+    font-size: 96px;
+    position: absolute;
+    z-index: -1;
+    margin-left: 552px;
+    margin-top: -82px;
+    background: linear-gradient(89.62deg, #060566 10.09%, #E01E5A 92.23%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.h1-3 {
+    font-size: 96px;
+    position: absolute;
+    z-index: -1;
+    margin-left: 32px;
+    margin-top: -82px;
+    background: linear-gradient(89.62deg, #060566 10.09%, #E01E5A 92.23%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+h2 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 48px;
+    color: $white;
+}
+
+p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 37px;
+    color: $white;
+}
+
+.p-1 {
+    padding-top: 20px;
+}
+
+.p-2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 8px;
+}
+
+p2 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: $white;
+}
+
+.p2-1 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 32px;
+}
+
+.p2-2 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    padding-bottom: 12px;
+}
+
+p3 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: $white;
+}
+
+p4 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #03DB80;
+}
+
+.p4-1 {
+    font-weight: 400;
+    line-height: 42px;
+    color: $white;
+}
+
+header {
+    background-color: #04011C;
+    height: 84px;
+    vertical-align: center;
+}
+
+.header__logotip {
+    width: 100%;
+}
+
+nav a {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: $white;
+    margin-right: 36px;
+}
+
+nav a1 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: $white;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1320px;
+}
+
+.header__vershina {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+button {
+   @extend %buttonstyle;
+}
+
+button:hover{
+    background: #1E1B33;
+    border: 1px solid rgba(231, 231, 231, 0.4);
+}
+
+.sec-1 {
+    background: url(../img/fon1.png) center/cover no-repeat;
+}
+
+.sec-1__card1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 52px;
+}
+
+.sec-1__item1 {
+    margin: 0 auto;
+    background: url(../img/navi.svg) right bottom no-repeat;
+    height: 518px;
+    width: 739px;
+    margin-top: 104px;
+}
+
+.sec-1__item2 {
+    margin: 0 auto;
+}
+
+.sec-1__knopki {
+    padding-top: 40px;
+}
+
+.sec-1__but2 {
+    @extend %buttonstyle;
+}
+
+.sec-1__but3 {
+    @extend %buttonstyle;
+    margin-left: 12px;
+}
+
+.sec-1__audio {
+    display: flex;
+    align-items: center;
+    margin-top: 46px;
+}
+
+.sec-2 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 132px;
+}
+
+.card2 {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px
+}
+
+.sec-2__fotochki {
+    display: flex;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.sec-2__foto {
+    width: 312px;
+    height: 435px;
+    border-radius: 12px;
+    background-color: #1E1B33;
+    margin-right: 24px;
+}
+
+.sec-2__fot {
+    margin: 24px;
+}
+
+.sec-2__podfoto {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 24px;
+}
+
+.sec-2__podpodfoto {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 24px;
+}
+
+.sec-2__niz {
+    padding: 0px 24px;
+}
+
+.sec-2__butfoto {
+    @extend %buttonstyle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin-top: 28px;
+}
+
+.sec-3 {
+    padding-top: 132px;
+}
+
+.card3 {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.sec-3__verh {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-3__butday {
+    @extend %buttonstyle;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.sec-3__strelka {
+    padding-top: 3px;
+}
+
+.sec-3__buthren {
+    @extend %buttonstyle;
+    padding: 10px 14px;
+    font-size: 13px;
+}
+
+.sec-3__strelka2 {
+    padding-top: 8px;
+}
+
+.sec-3__card3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 36px;
+}
+
+.sec-3__vnizy {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.sec-3__butava {
+    @extend %buttonstyle;
+    display: flex;
+    justify-content: space-between;
+    background: #1E1B33;
+    border: 1px solid rgba(231, 231, 231, 0.4);
+    border-radius: 16px;
+    width: 424px;
+    height: 101px;
+}
+
+.sec-3__butava:hover {
+    border-image: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%) 20% / 1 / 0 stretch;
+}
+
+.sec-3__nft1 {
+    padding-right: 12px;
+}
+
+.sec-3__nft2 {
+    text-align: left;
+}
+
+.sec-3__views1, .sec-3__views2 {
+    padding-top: 15px;
+    margin-right: 178px;
+}
+
+.sec-3__card5 {
+    text-align: center;
+    margin-top: 56px;
+}
+
+.sec-3__butcollection {
+    @extend %buttonstyle;
+    padding: 16px 40px;
+}
+
+.footer__card6{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.footer__item3 {
+    margin-right: 191px;
+}
+
+.footer__registr {
+    margin-top: 36px;
+}
+
+.footer__mail {
+    float: left;
+    border-radius: 8px 0px 0px 8px;
+}
+
+input[type=text]{
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    width: 62%;
+    padding: 20px 90px 20px 20px;
+    margin-bottom: 60px;
+    display: inline-block;
+    background: #1E1B33;
+}
+
+.footer__butreg {
+    @extend %buttonstyle;
+    font-weight: 600;
+    line-height: 18px;
+    float: left;
+    padding: 20px 30px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.footer__link {
+    cursor: pointer;
+    margin-bottom: 99px;
+}
+
+@media (max-width: 1330px) {
+    %buttonstyle {
+        font-size: 11px;
+        line-height: 13px;
+        padding: 8px 13px;
+    }
+
+    h1 {
+        font-size: 42px;
+        line-height: 53px;
+    }
+
+    .h1-2 {
+        font-size: 64px;
+        margin-left: 378px;
+        margin-top: -55px;
+    }
+
+    .h1-3 {
+        font-size: 64px;
+        margin-left: 20px;
+        margin-top: -55px;
+    }
+
+    h2 {
+        font-size: 29px;
+        line-height: 32px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .p-1 {
+        padding-top: 13px;
+    }
+
+    .p-2 {
+        font-size: 11px;
+        line-height: 13px;
+        padding-left: 5px;
+    }
+
+    p2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .p2-1 {
+        font-size: 16px;
+        line-height: 18px;
+        padding-bottom: 21px;
+    }
+
+    .p2-2 {
+        font-size: 10px;
+        line-height: 12px;
+        padding-bottom: 8px;
+    }
+
+    p3 {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    p4 {
+        font-size: 9px;
+        line-height: 17px;
+    }
+
+    .p4-1 {
+        line-height: 28px;
+    }
+
+    header {
+        height: 70px;
+    }
+
+    nav a {
+        font-size: 12px;
+        line-height: 13px;
+        margin-right: 24px;
+    }
+
+    nav a1 {
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .container {
+        max-width: 900px;
+    }
+
+    .header__vershina {
+        padding: 13px 0px;
+    }
+
+    .sec-1__item1 {
+        height: 345px;
+        width: 493px;
+        margin-top: 69px;
+    }
+
+    .sec-1__knopki {
+        padding-top: 27px;
+    }
+
+    .sec-1__play {
+        width: 5%;
+    }
+
+    .sec-1__fort {
+        width: 310px;
+    }
+
+    .sec-2 {
+        padding-top: 0px;
+        margin-top: 130px;
+    }
+
+    .sec-2__foto {
+        width: 208px;
+        height: 290px;
+        margin-right: 16px;
+    }
+    
+    .sec-2__fot {
+        margin: 16px;
+    }
+
+    .sec-2_fotka {
+        width: 100%;
+    }
+
+    .sec-2__like {
+        width: 15%;
+    }
+    
+    .sec-2__podpodfoto {
+        margin-top: 13px;
+    }
+
+    .sec-2__flow {
+        width: 50%;
+    }
+
+    .sec-2__ava {
+        width: 30%;
+    }
+
+    .sec-2__butfoto {
+        font-size: 10px;
+        line-height: 13px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        margin-top: 16px;
+    }
+
+    .sec-3 {
+        padding-top: 88px;
+    }
+
+    .card3 {
+        padding-top: 20px;
+    }
+
+    .sec-3__butday {
+        padding: 8px 10px;
+        font-size: 8px;
+        line-height: 8px;
+    }
+
+    .sec-3__buthren {
+        padding: 10px 12px;
+        font-size: 8px;
+    }
+
+    .sec-3__strelka {
+        width: 20%;
+        padding-top: 1px;
+    }
+
+    .sec-3__strelka2 {
+        width: 15%;
+        padding-top: 4px;
+    }
+
+    .sec-3__vnizy {
+        margin-top: 16px;
+    }
+
+    .sec-3__butava {
+        padding: 8px 13px;
+        width: 283px;
+        height: 67px;
+    }
+
+    .sec-3__ava1 {
+        width: 40px;
+    }
+
+    .sec-3__nft1 {
+        padding-right: 8px;
+    }
+
+    .sec-3__views1, .sec-3__views2 {
+        width: 40%;
+        padding-top: 10px;
+        margin-right: 85px;
+    }
+
+    .sec-3__card5 {
+        margin-top: 37px;
+    }
+
+    .sec-3__butcollection {
+        padding: 10px 27px;
+    }
+
+    .footer__card6{
+        margin-top: 66px;
+    }
+
+    .footer__item3 {
+        margin-right: 127px;
+    }
+
+    .footer__registr {
+        margin-top: 24px;
+    }
+
+    input[type=text]{
+        font-size: 10px;
+        line-height: 12px;
+        width: 62%;
+        padding: 12px 60px 12px 13px;
+        margin-bottom: 40px;
+    }
+
+    .footer__butreg {
+        line-height: 12px;
+        padding: 12px 20px;
+    }
+
+    .footer__link {
+        margin-top: -10px;
+        width: 110px;
+        margin-bottom: 66px;
+    }
+}
+
+@media (max-width: 900px) {
+    %buttonstyle {
+        font-size: 7px;
+        line-height: 8px;
+        padding: 6px 8px;
+    }
+
+    h1 {
+        font-size: 25px;
+        line-height: 32px;
+    }
+
+    .h1-2 {
+        font-size: 45px;
+        margin-left: 110px;
+        margin-top: -40px;
+    }
+
+    .h1-3 {
+        font-size: 40px;
+        margin-left: 0px;
+        margin-top: -60px;
+    }
+
+    h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .p-1 {
+        padding-top: 7px;
+    }
+
+    .p-2 {
+        font-size: 11px;
+        line-height: 13px;
+        padding-left: 5px;
+    }
+
+    p2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .p2-1 {
+        font-size: 16px;
+        line-height: 18px;
+        padding-bottom: 21px;
+    }
+
+    .p2-2 {
+        font-size: 10px;
+        line-height: 12px;
+        padding-bottom: 8px;
+        display: none;
+    }
+
+    p3 {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    p4 {
+        font-size: 9px;
+        line-height: 17px;
+    }
+
+    .p4-1 {
+        line-height: 28px;
+    }
+
+    header {
+        height: 42px;
+    }
+
+    .header__logotip {
+        width: 70%;
+    }
+
+    nav a {
+        font-size: 8px;
+        line-height: 8px;
+        margin-right: 6px;
+    }
+
+    nav a1 {
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .container {
+        max-width: 310px;
+    }
+
+    .header__vershina {
+        padding: 5px 0px;
+    }
+
+    .sec-1__card1 {
+        display: block;
+        padding-top: 20px;
+    }
+
+    .sec-1__item1 {
+        background: none;
+        height: 200px;
+        width: 310px;
+        margin-top: 0px;
+    }
+
+    .sec-1__knopki {
+        padding-top: 12px;
+    }
+
+    .sec-1__play {
+        width: 5%;
+    }
+
+    .sec-1__fort {
+        width: 250px;
+    }
+
+    .sec-1__but3 {
+        margin-left: 5px;
+    }
+
+    .sec-1__audio {
+        margin-top: 20px;
+    }
+
+    .sec-2 {
+        padding-top: 0px;
+        margin-top: 60px;
+    }
+
+    .sec-2__foto {
+        width: 208px;
+        height: 290px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .sec-2__fotochki {
+        flex-direction: column;
+        margin-top: 30px;
+        align-items: center;
+    }
+    
+    .sec-2__fot {
+        margin-top: 0px;
+    }
+
+    .sec-2_fotka {
+        margin-top: 13px;
+        width: 100%;
+    }
+
+    .sec-2__like {
+        width: 15%;
+    }
+    
+    .sec-2__podpodfoto {
+        margin-top: 13px;
+    }
+
+    .sec-2__flow {
+        width: 50%;
+    }
+
+    .sec-2__ava {
+        width: 30%;
+    }
+
+    .sec-2__butfoto {
+        font-size: 10px;
+        line-height: 13px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        margin-top: 16px;
+    }
+
+    .sec-3 {
+        padding-top: 50px;
+    }
+
+    .card3 {
+        padding-top: 20px;
+    }
+
+    .sec-3__levo {
+        width: 100px;
+    }
+
+    .sec-3__butday {
+        padding: 8px 8px;
+        font-size: 8px;
+        line-height: 8px;
+    }
+
+    .sec-3__buthren {
+        padding: 10px 12px;
+        font-size: 8px;
+    }
+
+    .sec-3__strelka {
+        width: 20%;
+        padding-top: 1px;
+    }
+
+    .sec-3__strelka2 {
+        width: 15%;
+        padding-top: 4px;
+    }
+
+    .sec-3__pravo {
+        display: none;
+    }
+
+    .sec-3__vnizy {
+        margin-top: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec-3__butava {
+        margin-top: 10px;
+        padding: 8px 13px;
+        width: 283px;
+        height: 67px;
+    }
+
+    .sec-3__ava1 {
+        width: 40px;
+    }
+
+    .sec-3__nft1 {
+        padding-right: 8px;
+    }
+
+    .sec-3__views1, .sec-3__views2 {
+        width: 40%;
+        padding-top: 10px;
+        margin-right: 85px;
+    }
+
+    .sec-3__card5 {
+        margin-top: 37px;
+    }
+
+    .sec-3__butcollection {
+        padding: 10px 27px;
+    }
+
+    .footer__card6{
+        margin-top: 66px;
+        display: block;
+    }
+
+    .footer__item3 {
+        margin-right: 127px;
+    }
+
+    .footer__registr {
+        margin-top: 24px;
+    }
+
+    input[type=text]{
+        font-size: 10px;
+        line-height: 12px;
+        width: 62%;
+        padding: 12px 60px 12px 13px;
+        margin-bottom: 40px;
+    }
+
+    .footer__butreg {
+        line-height: 12px;
+        padding: 12px 20px;
+    }
+
+    .footer__link {
+        margin-top: -10px;
+        width: 80px;
+        margin-bottom: 66px;
+        margin-right: 100px;
+    }
+}
